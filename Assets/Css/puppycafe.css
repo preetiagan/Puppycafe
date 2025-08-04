@@ -594,7 +594,7 @@ max-width:591px;
 margin:0 auto;
 }
 .wrapper-inner-header{
-    background-image: url("/Puppycafe/Images/Headerimage/headerimage.jpg");
+    background-image: url("../../Images/Headerimage/headerimage.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
