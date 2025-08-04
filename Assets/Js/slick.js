@@ -5,6 +5,10 @@ $(document).ready(function(){
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 3,
+   autoplay:true,
+        autoplaySpeed:1000,
+        pauseOnHover:true,
+        infinite:true,
   responsive: [
     {
       breakpoint: 768,
@@ -12,7 +16,11 @@ $(document).ready(function(){
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
-        slidesToShow: 1
+        slidesToShow: 1,
+        autoplay:true,
+        autoplaySpeed:2000,
+        pauseOnHover:true,
+        infinite:true
       }
     },
     {
@@ -21,7 +29,11 @@ $(document).ready(function(){
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
-        slidesToShow: 1
+        slidesToShow: 1,
+          autoplay:true,
+        autoplaySpeed:2000,
+        pauseOnHover:true,
+        infinite:true
       }
     }
   ]
