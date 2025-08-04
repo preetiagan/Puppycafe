@@ -108,7 +108,7 @@
     <div class="form-main">
       <form action="https://formspree.io/f/mldlwyal"
   method="POST">
-  <h2 class="contact">Contact Us</h2>
+  
         <label class="label" for="name">Name:</label><br/>
         <input type="text" id="name" name="name" placeholder="Enter your name here" required><br><br>
         <label  class="label" for="email">Email: </label><br/>
@@ -587,6 +587,9 @@ Pawrade Puppy's Life</p>
       jQuery(".view").click(function(){
         console.log("Button has been clicked.")
           jQuery(".form-main").show();
+      });
+      jQuery(".form-main").mouseleave(function(){
+        jQuery(".form-main").hide();
       });
         
 });
