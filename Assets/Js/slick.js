@@ -38,6 +38,14 @@ $(document).ready(function(){
     }
   ]
 })
+
+$('.health-test').slick({
+  infinite: true,
+  speed: 500,
+  cssEase: 'linear',
+  arrow:true
 });
 
 
+	
+});
