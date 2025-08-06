@@ -91,10 +91,24 @@ size:2px;
 }
 .featured-flex-main{
     max-width:315px;
+    position:relative;
     margin:0 auto;
     background-color: #FDFDFD;
     box-shadow: 0px 4px 28px -2px #00000014;
  
+}
+
+.hearticon{
+  position:absolute;
+  border-radius: 20px;
+      left: 11px;
+      cursor:pointer;
+}
+.shooticon{
+  position:absolute;
+  border-radius: 20px;
+  left:272px;
+  cursor:pointer;
 }
 .button-bottom h6
  {
@@ -697,7 +711,9 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     height: 100%;
     object-fit: cover;
 }
-
+.slick-slide div.inner-div.right.img-test{
+  height:1px !important;
+}
 .slider-border{
     border:1px solid #727272;
     padding:50px;
@@ -1563,27 +1579,30 @@ header top css  */
   border-radius: 15px;
 background-color: #fff;
   transition: transform 0.3s ease;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .inner-div:hover {
   transform: translateY(-5px);
 }
-
+.starrating{
+ width: 96px;
+    height: 23px;
+    object-fit: cover;
+}
 .left {
-  flex: 1;
- 
-
-    flex: 1;
+ flex: 1;
     margin: 0 auto;
     align-items: center;
-    padding-top: 58px;
+    padding-top: 28px;
 
 }
 
 .left h6 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+  padding-left:12px;
   color: #333;
 }
 
